@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageBtn"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:hint="Type word..."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:id="@+id/inputTextView"
+        android:textColorHint="#830E0C0C"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="40dp"
+        android:text="translate"
+        android:id="@+id/translateView"
+        android:textSize="20dp"
+        android:background="@drawable/btn_style"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/red"
+        android:padding="10dp"
+        android:textColorHighlight="@color/red"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
