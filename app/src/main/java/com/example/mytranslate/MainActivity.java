@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 sendRequest();
 
+
             }
         });
 
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 } catch (JSONException e) {
-                    e.printStackTrace();
+                    resultView.setText("The word was not found!/ასეთი სიტყვა არ მოიძებნა!");
                 }
 
 
